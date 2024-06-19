@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img/222222222.jpeg'); /* Ganti dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Membuat latar belakang tetap ketika scroll */
+}
+
+header {
+    background-color: transparent; /* Ubah menjadi transparan */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px); /* Mengurangi tinggi header jika ada */
+    background-color: transparent; /* Ubah menjadi transparan */
+}
+
+form {
+    width: 50%; /* Atur lebar form sesuai kebutuhan */
+    max-width: 600px; /* Menambahkan batas maksimal lebar form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Menambahkan opacity agar lebih terlihat */
+}
+
+h2 {
+    text-align: center; /* Mengatur teks menjadi di tengah */
+    margin-bottom: 20px; /* Memberikan jarak bawah antara teks dan form */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Membuat input dan textarea menghitung padding dan border dalam perhitungan lebar */
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
